@@ -1,0 +1,341 @@
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Personalized dermatology, skincare, acne treatment and skin rejuvenation at SkinCare+.">
+  <title>SkinCare+ | Dermatology & Skin Clinic</title>
+  <link rel="stylesheet" href="style.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;600;700&family=Manrope:wght@400;500;600;700;800&display=swap" rel="stylesheet">
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+
+  <!-- Navigation -->
+  <header class="header" id="header">
+    <nav class="navbar container">
+      <a href="#home" class="logo">
+        <span class="logo-icon"><i data-lucide="flower-2"></i></span>
+        <span>SkinCare+<small>Healthy Skin · Confident You</small></span>
+      </a>
+
+      <button class="menu-toggle" id="menuToggle" aria-label="Toggle navigation" aria-expanded="false">
+        <i data-lucide="menu"></i>
+      </button>
+
+      <div class="nav-links" id="navLinks">
+        <a href="#home" class="nav-link active">Home</a>
+        <a href="#about" class="nav-link">About</a>
+        <a href="#services" class="nav-link">Services</a>
+        <a href="#reviews" class="nav-link">Reviews</a>
+        <a href="#contact" class="nav-link">Contact</a>
+        <a href="#appointment" class="btn btn-primary nav-appointment">
+          <i data-lucide="calendar-days"></i> Book Appointment
+        </a>
+      </div>
+    </nav>
+  </header>
+
+  <main>
+    <!-- Hero Section -->
+    <section class="hero" id="home">
+      <div class="container hero-grid">
+        <div class="hero-content">
+          <span class="eyebrow"><span class="status-dot"></span> Professional Dermatology Care</span>
+          <h1>Healthy Skin<br><span>Builds Confidence.</span></h1>
+          <p>Expert dermatology care for your skin, hair and nail concerns. Personalized treatments. Advanced technology. Care that puts you first.</p>
+
+          <div class="hero-actions">
+            <a href="#appointment" class="btn btn-primary">
+              <i data-lucide="calendar-check"></i> Book Appointment
+            </a>
+            <a href="#services" class="btn btn-outline">Explore Services <i data-lucide="arrow-right"></i></a>
+          </div>
+
+          <div class="trust-points">
+            <div><i data-lucide="shield-check"></i><span>Qualified<br>Dermatologists</span></div>
+            <div><i data-lucide="sparkles"></i><span>Modern<br>Treatments</span></div>
+            <div><i data-lucide="heart-handshake"></i><span>Personalized<br>Care</span></div>
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <img
+            src="https://images.unsplash.com/photo-1616683693504-3ea7e9ad6fec?auto=format&fit=crop&w=1000&q=85"
+            alt="Woman with healthy glowing skin"
+            class="hero-image">
+          <div class="floating-label label-top">
+            <span class="label-icon mint"><i data-lucide="check-circle-2"></i></span>
+            <span><strong>Expert Skin Care</strong><small>Care tailored to you</small></span>
+          </div>
+          <div class="floating-label label-bottom">
+            <span class="label-icon peach"><i data-lucide="heart"></i></span>
+            <span><strong>Feel confident</strong><small>Every day, naturally</small></span>
+          </div>
+          <div class="hero-decoration"></div>
+        </div>
+      </div>
+    </section>
+
+    <!-- Statistics -->
+    <section class="stats-section">
+      <div class="container stats-grid">
+        <div class="stat"><strong>10+</strong><span>Years of Experience*</span></div>
+        <div class="stat"><strong>1,000+</strong><span>Patients Cared For*</span></div>
+        <div class="stat"><strong>6</strong><span>Care Categories</span></div>
+        <div class="stat"><strong>100%</strong><span>Personalized Attention</span></div>
+      </div>
+      <p class="demo-note">*Illustrative sample figures — replace with verified clinic statistics before publishing.</p>
+    </section>
+
+    <!-- Services -->
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-heading">
+          <div>
+            <span class="section-kicker">CARE FOR EVERY SKIN JOURNEY</span>
+            <h2>Our Dermatology Services</h2>
+            <p>From everyday skin concerns to specialized treatments, discover care designed around you.</p>
+          </div>
+          <a href="#appointment" class="text-link">Book a consultation <i data-lucide="arrow-up-right"></i></a>
+        </div>
+
+        <div class="services-grid">
+          <article class="service-card">
+            <div class="service-icon icon-blue"><i data-lucide="droplets"></i></div>
+            <h3>Acne Treatment</h3>
+            <p>Personalized care for acne, breakouts, acne marks and related concerns.</p>
+            <a href="#appointment" class="learn-link" data-service="Acne Treatment">Learn More <i data-lucide="arrow-right"></i></a>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon icon-green"><i data-lucide="scan-face"></i></div>
+            <h3>Skin Rejuvenation</h3>
+            <p>Explore suitable options for texture, uneven tone and skin appearance.</p>
+            <a href="#appointment" class="learn-link" data-service="Skin Rejuvenation">Learn More <i data-lucide="arrow-right"></i></a>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon icon-purple"><i data-lucide="waves"></i></div>
+            <h3>Hair Loss Care</h3>
+            <p>Assessment and treatment planning for hair thinning and scalp concerns.</p>
+            <a href="#appointment" class="learn-link" data-service="Hair Loss Care">Learn More <i data-lucide="arrow-right"></i></a>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon icon-orange"><i data-lucide="leaf"></i></div>
+            <h3>Eczema & Psoriasis</h3>
+            <p>Medical guidance for persistent irritation, dryness and inflammatory skin conditions.</p>
+            <a href="#appointment" class="learn-link" data-service="Eczema & Psoriasis">Learn More <i data-lucide="arrow-right"></i></a>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon icon-yellow"><i data-lucide="circle-dot"></i></div>
+            <h3>Mole & Wart Checks</h3>
+            <p>Professional assessment of moles, warts and other skin growths.</p>
+            <a href="#appointment" class="learn-link" data-service="Mole & Wart Checks">Learn More <i data-lucide="arrow-right"></i></a>
+          </article>
+
+          <article class="service-card">
+            <div class="service-icon icon-pink"><i data-lucide="shield-check"></i></div>
+            <h3>Skin Cancer Screening</h3>
+            <p>Skin assessments to help identify concerning changes that need medical review.</p>
+            <a href="#appointment" class="learn-link" data-service="Skin Cancer Screening">Learn More <i data-lucide="arrow-right"></i></a>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- About Doctor -->
+    <section class="section about-section" id="about">
+      <div class="container about-grid">
+        <div class="doctor-photo-wrap">
+          <img
+            src="https://images.unsplash.com/photo-1559839734-2b71ea197ec2?auto=format&fit=crop&w=850&q=85"
+            alt="Dermatologist in a white medical coat"
+            class="doctor-photo">
+          <div class="photo-caption"><i data-lucide="heart"></i> Care that puts you first</div>
+        </div>
+
+        <div class="about-content">
+          <span class="section-kicker">YOUR SKIN, OUR PRIORITY</span>
+          <h2>Meet Your Dermatology Partner</h2>
+          <p class="about-lead">Your skin deserves thoughtful care, expert attention and a plan that fits your needs.</p>
+          <p>At SkinCare+, we believe great skincare starts with listening. Our clinic experience is designed to help you understand your skin concerns, explore appropriate treatment options and make informed decisions with a qualified professional.</p>
+
+          <div class="doctor-credentials">
+            <div><i data-lucide="graduation-cap"></i><span><strong>Qualified Care</strong><small>Consultation with a licensed professional</small></span></div>
+            <div><i data-lucide="calendar-check"></i><span><strong>Individual Treatment Plans</strong><small>Recommendations based on your concerns</small></span></div>
+            <div><i data-lucide="heart-pulse"></i><span><strong>Patient-First Approach</strong><small>Clear guidance at every step</small></span></div>
+          </div>
+          <a href="#appointment" class="btn btn-primary">Meet Your Skin Specialist <i data-lucide="arrow-right"></i></a>
+          <p class="demo-note">Add your dermatologist's verified name, qualifications and registration details here.</p>
+        </div>
+      </div>
+    </section>
+
+    <!-- Appointment -->
+    <section class="section appointment-section" id="appointment">
+      <div class="container appointment-grid">
+        <div class="appointment-info">
+          <span class="section-kicker">LET'S TAKE CARE OF YOUR SKIN</span>
+          <h2>Your Healthier-Skin Journey Starts Here.</h2>
+          <p>Request an appointment with our clinic. Share your preferred date and the service you would like to discuss.</p>
+          <div class="contact-detail"><span><i data-lucide="clock"></i></span><div><strong>Clinic Hours</strong><p>Monday – Saturday · 10 AM – 6 PM</p></div></div>
+          <div class="contact-detail"><span><i data-lucide="phone"></i></span><div><strong>Call the Clinic</strong><p><a href="tel:+917458077120">+91 7458077120</a></p></div></div>
+          <div class="contact-detail"><span><i data-lucide="map-pin"></i></span><div><strong>Visit Us</strong><p>Jalandhar ,Punjab , 144411</p></div></div>
+          <p class="demo-note">Update the sample phone number, address and hours before going live.</p>
+        </div>
+
+        <form class="appointment-form" id="appointmentForm">
+          <div class="form-heading">
+            <span class="form-heading-icon"><i data-lucide="calendar-days"></i></span>
+            <div><h3>Request an Appointment</h3><p>Fields marked * are required.</p></div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="fullName">Full Name *</label>
+              <input type="text" id="fullName" name="fullName" placeholder="Your full name" required minlength="2" autocomplete="name">
+            </div>
+            <div class="form-group">
+              <label for="phone">Phone Number *</label>
+              <input type="tel" id="phone" name="phone" placeholder="10-digit mobile number" required pattern="[6-9][0-9]{9}" maxlength="10" inputmode="numeric" autocomplete="tel">
+            </div>
+          </div>
+
+          <div class="form-row">
+            <div class="form-group">
+              <label for="service">Select Service *</label>
+              <select id="service" name="service" required>
+                <option value="">Choose a service</option>
+                <option>Acne Treatment</option>
+                <option>Skin Rejuvenation</option>
+                <option>Hair Loss Care</option>
+                <option>Eczema & Psoriasis</option>
+                <option>Mole & Wart Checks</option>
+                <option>Skin Cancer Screening</option>
+                <option>General Consultation</option>
+              </select>
+            </div>
+            <div class="form-group">
+              <label for="date">Preferred Date *</label>
+              <input type="date" id="date" name="date" required>
+            </div>
+          </div>
+
+          <div class="form-group">
+            <label for="time">Preferred Time</label>
+            <select id="time" name="time">
+              <option value="">Any available time</option>
+              <option>10:00 AM – 12:00 PM</option>
+              <option>12:00 PM – 2:00 PM</option>
+              <option>2:00 PM – 4:00 PM</option>
+              <option>4:00 PM – 6:00 PM</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="message">Anything you'd like us to know? (Optional)</label>
+            <textarea id="message" name="message" rows="3" maxlength="500" placeholder="Briefly describe your concern. Avoid sharing sensitive medical details."></textarea>
+          </div>
+
+          <label class="consent-label">
+            <input type="checkbox" id="consent" required>
+            <span>I agree to be contacted about this appointment request. *</span>
+          </label>
+
+          <button type="submit" class="btn btn-primary submit-btn">Request Appointment <i data-lucide="arrow-right"></i></button>
+          <p class="form-notice" id="formNotice" role="status" aria-live="polite"></p>
+          <p class="privacy-note"><i data-lucide="lock-keyhole"></i> Demo form: details are not sent to a clinic automatically.</p>
+        </form>
+      </div>
+    </section>
+
+    <!-- Reviews -->
+    <section class="section reviews-section" id="reviews">
+      <div class="container">
+        <div class="section-heading">
+          <div><span class="section-kicker">KIND WORDS</span><h2>Patient Experiences</h2><p>Thoughtful care begins with listening and clear communication.</p></div>
+          <div class="slider-controls">
+            <button id="prevReview" aria-label="Previous review"><i data-lucide="arrow-left"></i></button>
+            <button id="nextReview" aria-label="Next review"><i data-lucide="arrow-right"></i></button>
+          </div>
+        </div>
+
+        <div class="review-window">
+          <div class="review-track" id="reviewTrack">
+            <article class="review-card">
+              <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+              <p>“The consultation helped me better understand my skin concerns and the options available. Everything was explained clearly.”</p>
+              <div class="review-person"><span class="avatar">A</span><div><strong>Patient A</strong><small>Sample testimonial</small></div></div>
+            </article>
+            <article class="review-card">
+              <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+              <p>“A welcoming experience, with time to discuss my concerns and understand the next steps in my skincare plan.”</p>
+              <div class="review-person"><span class="avatar avatar-two">R</span><div><strong>Patient R</strong><small>Sample testimonial</small></div></div>
+            </article>
+            <article class="review-card">
+              <div class="stars" aria-label="5 out of 5 stars">★★★★★</div>
+              <p>“The appointment process was straightforward, and I appreciated the focus on personalized care.”</p>
+              <div class="review-person"><span class="avatar avatar-three">S</span><div><strong>Patient S</strong><small>Sample testimonial</small></div></div>
+            </article>
+          </div>
+        </div>
+        <p class="demo-note">These testimonials are placeholders. Replace them with genuine reviews published with permission.</p>
+      </div>
+    </section>
+
+    <!-- Contact CTA -->
+    <section class="cta-section" id="contact">
+      <div class="container cta-content">
+        <div><span class="section-kicker">READY TO GET STARTED?</span><h2>Give Your Skin the Attention It Deserves.</h2><p>Start with a consultation and get guidance tailored to your concerns.</p></div>
+        <a href="#appointment" class="btn btn-light">Book Your Visit <i data-lucide="arrow-up-right"></i></a>
+      </div>
+    </section>
+  </main>
+
+  <!-- Footer -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <a href="#home" class="logo footer-logo"><span class="logo-icon"><i data-lucide="flower-2"></i></span><span>SkinCare+<small>Healthy Skin · Confident You</small></span></a>
+        <p>Your partner in understanding your skin and exploring personalized dermatology care.</p>
+        <div class="social-links">
+          <a href="https://www.instagram.com/" target="_blank" rel="noopener noreferrer" aria-label="Instagram"><i data-lucide="instagram"></i></a>
+          <a href="https://www.facebook.com/" target="_blank" rel="noopener noreferrer" aria-label="Facebook"><i data-lucide="facebook"></i></a>
+          <a href="https://www.linkedin.com/" target="_blank" rel="noopener noreferrer" aria-label="LinkedIn"><i data-lucide="linkedin"></i></a>
+        </div>
+      </div>
+
+      <div><h4>Quick Links</h4><a href="#home">Home</a><a href="#about">About Us</a><a href="#services">Services</a><a href="#reviews">Reviews</a></div>
+      <div><h4>Our Services</h4><a href="#services">Acne Treatment</a><a href="#services">Skin Rejuvenation</a><a href="#services">Hair Loss Care</a><a href="#services">Skin Screening</a></div>
+      <div><h4>Contact Us</h4><p><i data-lucide="map-pin"></i> Your clinic address</p><p><i data-lucide="phone"></i> +91 00000 00000</p><p><i data-lucide="mail"></i> hello@example.com</p><a href="#appointment">Request an appointment</a></div>
+    </div>
+    <div class="container footer-bottom"><p>© <span id="year"></span> SkinCare+. All rights reserved.</p><p>Website demo · Privacy · Terms</p></div>
+  </footer>
+
+  <!-- Floating Chat Widget -->
+  <button class="chat-button" id="chatButton" aria-label="Open clinic information chat" aria-expanded="false">
+    <i data-lucide="message-circle"></i>
+  </button>
+  <div class="chat-panel" id="chatPanel" hidden>
+    <div class="chat-header"><div><strong>SkinCare+ Assistant</strong><small>Clinic information</small></div><button id="closeChat" aria-label="Close chat"><i data-lucide="x"></i></button></div>
+    <div class="chat-messages" id="chatMessages" aria-live="polite">
+      <p class="chat-bubble">Hi! 👋 How can we help? Choose a topic below.</p>
+    </div>
+    <div class="chat-options">
+      <button data-chat="hours">Clinic hours</button>
+      <button data-chat="services">Services</button>
+      <button data-chat="booking">Book a visit</button>
+    </div>
+  </div>
+
+  <button class="back-to-top" id="backToTop" aria-label="Back to top"><i data-lucide="arrow-up"></i></button>
+
+  <script src="script.js"></script>
+</body>
+</html>
